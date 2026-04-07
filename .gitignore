@@ -1,0 +1,12 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+__pycache__/
+
+# macOS
+.DS_Store
+
+# Archivos de datos muy grandes
+*.parquet
+data/raw/

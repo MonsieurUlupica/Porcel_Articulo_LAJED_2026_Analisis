@@ -1,0 +1,13 @@
+componente,codigo,categoria,peso_aplicado,tipo_asignacion
+V07_AGUAPRO,1,Cañería de red,1.0,mapa_original
+V07_AGUAPRO,2,Pileta pública,2.0,valor_por_defecto
+V07_AGUAPRO,3,Cosecha de agua de lluvia,2.0,valor_por_defecto
+V07_AGUAPRO,4,Pozo excavado o perforado con bomba,3.0,mapa_original
+V07_AGUAPRO,5,Pozo no protegido o sin bomba,10.0,mapa_original
+V07_AGUAPRO,6,Manantial o vertiente protegida,3.0,mapa_original
+V07_AGUAPRO,7,"Río, acequia o vertiente no protegida",10.0,mapa_original
+V07_AGUAPRO,8,Carro repartidor (aguatero),5.0,mapa_original
+V07_AGUAPRO,9,Otro,2.0,valor_por_defecto
+V08_AGUADIST,1,Por cañería dentro de la vivienda,1.0,mapa_original
+V08_AGUADIST,2,"Por cañería fuera de la vivienda, pero dentro del lote o terreno",1.5,mapa_original
+V08_AGUADIST,3,No se distribuye por cañería,3.0,mapa_original

@@ -1,0 +1,58 @@
+{
+  "n_analytic": 7325783,
+  "n_mujeres": 3715280,
+  "n_hombres": 3610503,
+  "municipios_observados": 343,
+  "outcome_rate_total_pct": 13.010267980910708,
+  "outcome_rate_mujeres_pct": 21.162227342219158,
+  "outcome_rate_hombres_pct": 4.6217383007298425,
+  "omega_mean": 3.8497345447540283,
+  "omega_median": 1.0,
+  "omega_p75": 3.0,
+  "coefficients": {
+    "base_logit_omega": {
+      "estimate": 0.0036926552752022217,
+      "p_value": 7.985884011355888e-102
+    },
+    "interaction_logit_omega": {
+      "estimate": 0.005580421542683179,
+      "p_value": 9.49013880855385e-71
+    },
+    "interaction_logit_inter_omega_mujer": {
+      "estimate": -0.0026454858612952772,
+      "p_value": 7.697649009629946e-13
+    },
+    "interaction_probit_inter_omega_mujer": {
+      "estimate": -0.0006643919626070125,
+      "p_value": 0.0005821133285207345
+    },
+    "interaction_lpm_inter_omega_mujer": {
+      "estimate": 0.0005753751158091502,
+      "p_value": 8.370543145616672e-05
+    },
+    "extended_logit_omega": {
+      "estimate": 0.0030917986597749675,
+      "p_value": 1.2541656421618556e-21
+    },
+    "extended_logit_inter_omega_mujer": {
+      "estimate": -0.004170747854192691,
+      "p_value": 1.9440364338326743e-29
+    },
+    "base_logit_mujer": {
+      "estimate": 1.8953669161527102,
+      "p_value": 0.0
+    },
+    "extended_logit_mujer": {
+      "estimate": 1.9137848872631174,
+      "p_value": 0.0
+    },
+    "components_v08_2": {
+      "estimate": 0.1924538851013319,
+      "p_value": 0.0
+    },
+    "components_v08_3": {
+      "estimate": 0.0928847368802381,
+      "p_value": 3.488859202126084e-50
+    }
+  }
+}

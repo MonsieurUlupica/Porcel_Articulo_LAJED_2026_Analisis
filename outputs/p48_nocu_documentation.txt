@@ -1,0 +1,12 @@
+P48_NOCU
+Pregunta: 48.A. Las últimas 4 semanas: (Condición de inactividad en las últimas 4 semanas)
+
+Opciones:
+1. Buscó trabajo por primera vez
+2. Buscó trabajo habiendo trabajado antes
+3. Estuvo como pasante o aprendiz sin recibir pago
+4. Estuvo estudiando
+5. Está jubilada(o), es pensionista o rentista
+6. Realizó labores de su casa o cuidado de los miembros de su hogar
+7. Otro (especifique)
+9. Sin especificar

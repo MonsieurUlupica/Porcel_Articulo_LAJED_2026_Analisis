@@ -1,0 +1,18 @@
+archivo,variable,pregunta_o_etiqueta,uso_analitico
+PERSONA,P25_SEXO,25. Es mujer u hombre,Indicador de género
+PERSONA,P26_EDAD,26. Cuantos años cumplidos tiene,Filtro etario y controles de edad y edad al cuadrado
+PERSONA,P41A_NIVEL,41.A. Cuál es el último curso o año que aprobó y en que nivel educativo (Nivel),Proxy de escolaridad equivalente
+PERSONA,P48_NOCU,48.A. Las últimas 4 semanas: (Condición de inactividad en las últimas 4 semanas),Variable dependiente
+VIVIENDA,URBRUR,Área Urbana - Rural,Control de ruralidad
+VIVIENDA,V01_TIPOVIV,1. La vivienda es: (Tipo de vivienda),Filtro de viviendas particulares
+VIVIENDA,V02_CONDOCUP,2. La vivienda esta: (Condición de ocupación de la vivienda),Filtro de viviendas ocupadas o temporalmente ausentes
+VIVIENDA,V06_PISO,6. Cuál es el material más utilizado en los pisos de esta vivienda,Control material del hogar
+VIVIENDA,V07_AGUAPRO,"7. Principalmente, el agua que usan en la vivienda proviene de:",Componente de aprovisionamiento del índice hídrico
+VIVIENDA,V08_AGUADIST,8. El agua que usan en la vivienda se distribuye:,Componente de distribución del índice hídrico
+VIVIENDA,V09_ENERGIA,9. De donde proviene la energía eléctrica que usan en la vivienda,Control material del hogar
+VIVIENDA,V14_DORMIT,"14. De estos cuartos o habitaciones, Cuántos se utilizan solo para dormir",Control material del hogar y razón personas por dormitorio
+VIVIENDA,V15_SERVSAN,"15. Tienen, baño o letrina",Control material del hogar
+VIVIENDA,V16_DESAGUE,16. El baño o letrina tiene desagüe:,Control material del hogar
+VIVIENDA,V17_TENENCIA,17. La vivienda que ocupan es: (Tenencia de la vivienda),Control material del hogar
+VIVIENDA,TOT_PERS,Total personas,Tamaño del hogar y razón personas por dormitorio
+SISTEMA,"IDEP, IPROV, IMUN",Identificadores territoriales derivados del operativo censal,Efectos fijos departamentales y conteo territorial
