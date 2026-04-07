@@ -1,17 +1,14 @@
 # ¿Qué detiene el tiempo de las mujeres?
 
-Repositorio de trabajo del artículo **“¿Qué detiene el tiempo de las mujeres? Infraestructura hídrica, cuidado y no participación económica en Bolivia”**.
+Repositorio del reanálisis empírico y soporte metodológico para el artículo **“¿Qué detiene el tiempo de las mujeres? Infraestructura hídrica, cuidado y no participación económica en Bolivia”**.
 
-El proyecto organiza en un mismo lugar el manuscrito en LaTeX, la carta editorial y el reanálisis reproducible construido a partir de los microdatos públicos del Censo de Población y Vivienda 2024.
+Este proyecto contiene el entorno reproducible de datos construido a partir de los microdatos públicos del Censo de Población y Vivienda 2024 de Bolivia.
 
 ## Estructura
 
-- `Porcel_Articulo_LAJED.tex`: manuscrito principal.
-- `Porcel_Articulo_LAJED.bib`: base bibliográfica del artículo.
-- `Carta_respuesta_LAJED.tex`: nota de respuesta editorial.
-- `Porcel_Articulo_LAJED_2026_Analisis/rebuild_local_analysis.py`: script principal de reconstrucción empírica.
-- `Porcel_Articulo_LAJED_2026_Analisis/protocolo_reanalisis_local.md`: protocolo técnico del reanálisis.
-- `Porcel_Articulo_LAJED_2026_Analisis/outputs/`: salidas descriptivas y resultados de los modelos.
+- `rebuild_local_analysis.py`: script principal de reconstrucción empírica.
+- `protocolo_reanalisis_local.md`: protocolo técnico del reanálisis.
+- `outputs/`: salidas descriptivas y resultados de los modelos estadísticos.
 
 ## Requisitos
 
@@ -43,7 +40,7 @@ El script los buscará por defecto en:
 También puede indicarse otra ruta mediante:
 
 ```bash
-.venv/bin/python Porcel_Articulo_LAJED_2026_Analisis/rebuild_local_analysis.py --data-dir /ruta/a/microdatos
+.venv/bin/python rebuild_local_analysis.py --data-dir /ruta/a/microdatos
 ```
 
 o con la variable de entorno:
@@ -62,18 +59,18 @@ python3 -m venv .venv
 ## Ejecución del reanálisis
 
 ```bash
-.venv/bin/python Porcel_Articulo_LAJED_2026_Analisis/rebuild_local_analysis.py
+.venv/bin/python rebuild_local_analysis.py
 ```
 
 Para forzar la reconstrucción del parquet intermedio:
 
 ```bash
-.venv/bin/python Porcel_Articulo_LAJED_2026_Analisis/rebuild_local_analysis.py --force-parquet
+.venv/bin/python rebuild_local_analysis.py --force-parquet
 ```
 
 ## Salidas principales
 
-Después de correr el script, `Porcel_Articulo_LAJED_2026_Analisis/outputs/` contendrá:
+Después de correr el script, el directorio `outputs/` contendrá:
 
 - `table1_sample_characteristics.csv`
 - `omega_weights.csv`
@@ -84,19 +81,6 @@ Después de correr el script, `Porcel_Articulo_LAJED_2026_Analisis/outputs/` con
 - `model_components_logit.csv`
 - `key_findings.json`
 - `reanalysis_summary.md`
-
-## Compilación del manuscrito
-
-Con `latexmk` y `biber` disponibles en el sistema:
-
-```bash
-make
-```
-
-El objetivo por defecto compila:
-
-- `Porcel_Articulo_LAJED.pdf`
-- `Carta_respuesta_LAJED.pdf`
 
 ## Nota de reproducibilidad
 

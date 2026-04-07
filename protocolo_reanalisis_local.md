@@ -98,7 +98,7 @@ Los descriptivos se calculan sobre el universo analítico completo. Las estimaci
 
 ## Productos generados
 
-El script principal escribe en `Porcel_Articulo_LAJED_2026_Analisis/outputs/`:
+El script principal escribe en `outputs/`:
 
 - `table1_sample_characteristics.csv`
 - `omega_weights.csv`
@@ -122,13 +122,13 @@ El archivo `analytic_sample.parquet` es un derivado intermedio grande y puede re
 ## Comando de ejecución
 
 ```bash
-.venv/bin/python Porcel_Articulo_LAJED_2026_Analisis/rebuild_local_analysis.py --data-dir /ruta/al/directorio/de/microdatos
+.venv/bin/python rebuild_local_analysis.py --data-dir /ruta/al/directorio/de/microdatos
 ```
 
 Si los microdatos ya se encuentran en una de las rutas por defecto, basta con:
 
 ```bash
-.venv/bin/python Porcel_Articulo_LAJED_2026_Analisis/rebuild_local_analysis.py
+.venv/bin/python rebuild_local_analysis.py
 ```
 
 ## Lectura sustantiva
